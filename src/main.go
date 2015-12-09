@@ -4,6 +4,8 @@ import (
 	"github.com/codegangsta/negroni"
 	"net/http"
 )
+var portnum string
+portnum := "12500"
 
 func main() {
 	mux := http.NewServeMux()
@@ -11,5 +13,5 @@ func main() {
 
 	n := negroni.Classic()
 	n.UseHandler(mux)
-	n.Run(":3500")
+	n.Run(portnum)
 }
