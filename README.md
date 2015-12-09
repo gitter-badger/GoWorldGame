@@ -2,6 +2,7 @@
 
 + Go 1.5.2
 + use [negroni](https://github.com/codegangsta/negroni)
++ Default port number is 12500
 
 To start developing:
 
