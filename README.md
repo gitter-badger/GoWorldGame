@@ -7,7 +7,7 @@ To start developing:
 
 * set GOPATH to the checked out repository
 * `go get github.com/codegangsta/negroni`
-* Then, you can write codes.x
+* Then, you can write codes.
 
 ---
 
