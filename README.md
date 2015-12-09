@@ -1,6 +1,6 @@
 ### An game that is developing now
 
-+ Go 1.4.4
++ Go 1.5.2
 + use [negroni](https://github.com/codegangsta/negroni)
 
 To start developing:
