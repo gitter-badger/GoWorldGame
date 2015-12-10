@@ -4,8 +4,7 @@ import (
 	"github.com/codegangsta/negroni"
 	"net/http"
 )
-var portnum string
-portnum := "12500"
+var portnum = ":12500"
 
 func main() {
 	mux := http.NewServeMux()
