@@ -7,6 +7,8 @@
 To start developing:
 
 * set GOPATH to the checked out repository
+  * In Unix systems, run `export GOPATH=/home/go/goworldgame`.
+  * Strongly recommend that you write the code below to  your .bash_profile .
 * `go get github.com/codegangsta/negroni`
 * Then, you can write codes.
 
