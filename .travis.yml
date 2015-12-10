@@ -1,8 +1,9 @@
 language: go
 
 go:
-	- tip
-	go_import_path: GoWorldGame
+  - tip
+
+go_import_path: GoWorldGame
 
 install:
-	- go get github.com/codegangsta/negroni
+  - go get github.com/codegangsta/negroni
